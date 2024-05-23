@@ -1,9 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Hero from '../components/Hero.astro';
 ---
 
-<Layout title="Wilkommen bei L&G.">
-		<h1>F U <span class="text-gradient">World!</span></h1>
-		<Card title='test' body='Inhalt' href='/about' ></Card>
+<Layout title="Beispiel-Astro">
+		<section id="hero">
+			<Hero />
+		</section>
+		<section id="skills"></section>
+		<section id="timeline"></section>
+		<section id="projects"></section>
 </Layout>
